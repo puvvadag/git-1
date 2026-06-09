@@ -29,7 +29,8 @@ public class ExamResult {
 
         if (pass) {
             System.out.println("Result      : PASS");
-
+            
+	    if (percentage >= 90) 
             if (percentage >= 90)
                 System.out.println("Grade       : A+");
             else if (percentage >= 75)
